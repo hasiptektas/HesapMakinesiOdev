@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+
+        <corners
+            android:radius="14dp" />
+        <solid
+            android:color="@android:color/transparent"/>
+        <stroke
+            android:width="2dp"
+            android:color="@color/koyu_Mavi"/>
+        </shape>
+
+    </item>
+
+    <item android:state_enabled="true">
+
+        <shape android:shape="rectangle">
+
+        <corners
+            android:radius="14dp"/>
+        <solid
+            android:color="@color/koyu_Mavi"/>
+        <stroke
+            android:width="2dp"
+            android:color="@color/koyu_Mavi"
+            />
+        </shape>
+
+    </item>
+
+    <item android:state_enabled="false">
+
+        <shape android:shape="rectangle" >
+
+            <corners android:radius="14dp" />
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/koyu_Mavi"
+                />
+        </shape>
+
+    </item>
+
+</selector>
